@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --primary-color: #F1F1F1;
+    --secondary-color: #E5E5E5;
+    --white-color: #000;
+    --bg-color: #1D3557;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    font-family: "Lato", sans-serif;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    padding: 0px;
+}
+
+.navbar a {
+    color: var(--white-color);
+    font-weight: bold;
+}
+
+.active {
+    color: var(--white-color) !important;
+    font-weight: bold;
+}
+
+.btn {
+    color: white !important;
+    font-weight: bold;
+    background-color: var(--bg-color);
+    border: 1px solid var(--primary-color);
+}
+
+.btn:hover {
+    background-color: var(--bg-color);
+}
+
+h1,
+p {
+    color: white !important;
+}
+
+h6 {
+    color: white;
+}
+
+h3 {
+    color: #000 !important;
+}
+
+.developers {
+    color: #000;
+}
+
+.section1 {
+    background-color: var(--primary-color);
+    padding-bottom: 65px;
+    padding-top: 25px;
+}
+
+#dev {
+    margin-top: 50px;
+}
+
+.heading,
+.paragraph {
+    color: var(--white-color) !important;
+}
+
+.section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#section2 {
+    padding-bottom: 65px;
+    padding-top: 25px;
+    background-color: var(--primary-color);
+}
+
+.bar {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.bar h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    color: var(--bg-color);
+}
+
+.bar abbr {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 16px;
+    background-color: var(--primary-color);
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: var(--bg-color);
+}
+
+.div {
+    color: #ffffff;
+}
+
+.bar .thumb {
+    position: relative;
+    background: white;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.bar .thumb span {
+    display: block;
+    height: 100%;
+    background-color: var(--bg-color);
+    border-radius: 5px;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--white-color);
+}
+
+.btn {
+    border: 1px solid --primary-color;
+    background-color: var(--bg-color);
+}
+
+.btn :hover {
+    color: #000 !important;
+    border: 1px solid --primary-color;
+}
+
+#image {
+    border-radius: 50px 0px 50px 0px;
+    border: 5px solid var(--primary-color);
+}
+
+h2 {
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card {
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.card-img-top {
+    width: 350px;
+    height: 1000px;
+}
+
+.card {
+    background-color: white;
+    border: 2.5px solid --primary-color;
+    color: white !important;
+}
+
+.card-title {
+    color: white !important;
+}
+
+.card-text {
+    color: white !important;
+}
+
+.card h5 {
+    color: var(--primary-color);
+}
+
+.section4 {
+    background-color: var(--bg-color) !important;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #F1F1F1 !important;
+}
+
+.contact-container {
+    background-color: var(--primary-color);
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #000;
+}
+
+.contact-container h2 span {
+    color: var(--bg-color);
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 8px;
+    font-size: 1em;
+    transition: 0.3s ease-in-out;
+    background-color: var(--secondary-color);
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    background-color: #f5f7ff;
+}
+
+.btn-submit {
+    background-color: var(--bg-color);
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: white;
+    color: #1D3557;
+}
+
+.sections5 {
+    background-color: var(--bg-color);
+    padding-bottom: 65px;
+    padding-top: 25px;
+}
+
+.service-box {
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.text-muted {
+    color: var(--white-color) !important;
+}
+
+.skills {
+    background-color: var(--primary-color);
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.service-icon {
+    font-size: 2.5rem;
+}
+
+.more-info {
+    display: none;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: var(--bg-color);
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--bg-color);
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--primary-color);
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    color: #000 !important;
+}
+
+.footer-links li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+    color: white;
+}
+
+.footer-links li a:hover {
+    color: white !important;
+}
+
+.footer-credit {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    color: white !important;
+}
+
+@media screen and (min-width: 425px) {
+    .section {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .img-fluid {
+        margin-top: 30px;
+        
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .section {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .img-fluid {
+        margin-top: 30px;
+        
+    }
+}
+@media screen and (min-width: 375px) {
+    .section {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .img-fluid {
+        margin-top: 30px;
+        
+    }
+}
